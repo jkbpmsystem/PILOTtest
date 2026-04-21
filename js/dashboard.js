@@ -2,7 +2,7 @@ let allData = [];
 let filteredData = [];
 let currentFilter = 'ALL';
 let currentPage = 1;
-const rowsPerPage = 10;
+const rowsPerPage = 50;
 
 document.addEventListener("DOMContentLoaded", () => {
   initDashboard();
